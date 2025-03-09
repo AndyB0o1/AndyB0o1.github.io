@@ -1,0 +1,32 @@
+{
+  "project": [
+    {
+      "name": "Using React to build an invoicing app",
+      "img": "React.png",
+      "desc": "Using react with a provided API, we developed an invoicing system to match a required spec and design. I pair programmed the homepage showing all invoices and their status along with the number unpaid and the individual invoice page showing the full details of an invoice, using Tailwind for the styling.",
+      "url": "https://github.com/iO-Academy/2024-may-invoicing-sw-flamingos",
+      "live": "https://2024-may-sde-invoicing-sw-flamingos.dev.io-academy.uk/"
+    },
+    {
+      "name": "Using PHP, MySQL, Object-Oriented Programming",
+      "img": "OOP.png",
+      "desc": "Using PHP and a supplied SQL database to develop a music app matching required spec and design. I pair programmed the homepage showing three random artists and their albums, a page displaying all artists, their albums and song counts on each album and also a favourites element on the homepage displaying the five most played artists.  All of the above involved developing database queries and fetches along with coding the classes, entities and services required to display the elements properly.",
+      "url": "https://github.com/iO-Academy/2024-may-music-player-uWu-ShruWu",
+      "live": "https://2024-may-sde-music-player-uwu-shruwu.dev.io-academy.uk/artists.php"
+    },
+    {
+      "name": "Javascript Blackjack game",
+      "img": "blackjack.png",
+      "desc": "A project I started after my course - a simple Blackjack game written using html and JavaScript with Tailwind for styling. I used deckofcardsapi.com for the card deck. The game logic allows Aces to be either high or low depending upon the current score, and the dealer takes action on their cards based on the score. Responsive design allows it to work on both mobile and desktop.",
+      "url": "https://github.com/AndyB0o1/blackjack",
+      "live": "https://2024-andyb.dev.io-academy.uk/blackjack/"
+    },
+    {
+      "name": "A simple weather app in React",
+      "img": "weather-forecast.png",
+      "desc": "A simple weather app in React. Using an openweathermap api, the user can search by city to see an overview of the local weather and a basic 5 day forecast",
+      "url": "https://github.com/AndyB0o1/weather-forecast",
+      "live": "https://forecast.2024-andyb.dev.io-academy.uk/"
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="script.js"></script>
+    <title>Andy Bool Portfolio</title>
+</head>
+
+<body style="background-image: url(artem-sapegin-b18TRXc8UPQ-unsplash.jpg)" class="p-1.5">
+    <header id="top"
+        class="w-full flex justify-between py-1.5 text-orange-600 font-bold rounded sm:text-2xl md:text-4xl">
+        <div class="relative">
+            <div>
+                <button class="menu p-1.5 rounded sm:hidden">Menu &#x25BC;</button>
+            </div>
+            <div
+                class="dropdown hidden absolute flex flex-col flex-wrap bg-orange-100 text-orange-600 gap-3 p-1.5 rounded">
+                <a href="#portfolio" class="p-0.5 hover:bg-lime-300 hover:text-cyan-900 hover:rounded">Projects</a>
+                <a href="#contact" class="p-0.5 hover:bg-lime-300 hover:text-cyan-900 hover:rounded">Contact</a>
+            </div>
+            <div class="hidden gap-4 sm:flex sm:flex-row">
+                <button class="p-1.5 text-sm rounded sm:text-3xl md:text-3xl"><a href="#portfolio">My
+                        projects</a></button>
+                <button class="p-1.5 text-sm rounded sm:text-3xl md:text-3xl"><a href="#contact">Contact me</a></button>
+            </div>
+        </div>
+        <button class="p-1.5 rounded sm:text-2xl md:text-3xl"><a href="AndyBoolDevCV.pdf" download>Download my
+                CV</a></button>
+    </header>
+    </header>
+    <div class="p-1.5 mb-2 bg-cyan-900 text-orange-100 sm:text-3xl rounded">
+        <h2 class="font-bold sm:text-3xl">Welcome to my site!</h2>
+        <p class="p-0.5 mb-2 sm:text-3xl">Hi, I'm Andy, I’ve recently retrained as a Full Stack Developer with an
+            interest
+            in both front and back-end development and have experience of working with HTML, CSS, JavaScript, React,
+            PHP, Laravel and RESTful APIs</p>
+        <button class="about p-0.5 mb-1.5 bg-orange-100 text-cyan-900 sm:text-xl rounded">More...</button>
+        <div class="aboutMe hidden p-1.5 bg-orange-100 text-cyan-900 text-sm rounded sm:text-2xl">
+            <p>Following a successful career at a senior level in the charity sector, I made the decision last year to
+                seek a new challenge and to develop
+                a new career. Having worked with developers in my previous roles to create apps and web-based platforms 
+                to successfully engage people with conservation campaigns across the world, I hold a real interest in programming
+                and a desire to build a career in software development. Research and conversations with contacts led me
+                to a Software Development Bootcamp run by iO
+                Academy in Bath. Having recently graduated from that course, I am now looking to develop my career as
+                a software developer, and to secure a dev role to help me build on the skills and experience I have
+                gained over the last few months.
+            </p>
+            <br>
+            <p>I've worked on my own, pair-programmed and as a member of a Scrum team to complete projects using GitHub
+                to collaborate. I have
+                experience of working with HTML, CSS, Tailwind, JS, React, PHP, mySQL and Laravel and examples of my
+                coding and the projects I've worked on so far can be seen in my portfolio below.
+            </p>
+            <br>
+            <p>My previous career experience means I bring additional skills to roles such as problem solving,
+                stakeholder engagement, teamworking,
+                requirement gathering, project management, time management and strong communication skills. Having also
+                been the 'customer'
+                for development projects means I bring an additional, and hopefully useful, perspective to software
+                development roles.
+            </p>
+            <button class="less p-0.5 mb-1.5 bg-cyan-900 text-orange-100 sm:text-xl rounded">Less</button>
+        </div>
+    </div>
+
+    <div class="portfolio px-1.5 bg-orange-600 rounded">
+        <h3 class="p-1.5 font-bold text-orange-100 sm:text-3xl">My project portfolio</h3>
+        <p class="px-1.5 mb-1.5 font-bold text-orange-100 sm:text-2xl sm:hidden">Scroll to see examples of
+            my coding so far</p>
+    </div>
+
+    <section class="p-1.5 max-h-96 overflow-auto sm:max-h-none" id="portfolio">
+        <div
+            class="project flex flex-col flex-wrap justify-around justify-items-center align-items-center gap-2 p-2 lg:flex-row">
+            <div class="specificProject mx-auto md:basis-[45%] bg-[#90AEAD] max-w-2xl rounded-lg p-1.5">
+                <h2 class="p-2 font-bold bg-orange-600 text-orange-100 sm:text-3xl">My Bird List app - Laravel and React</h2>
+                <div>
+                    <a href="#">
+                        <img src="BirdApp.png" alt="Bird App Homepage" class="projectImage rounded" />
+                    </a>
+                </div>
+                <div class="projectText">
+                    <p class="pt-1.5 pb-3 text-cyan-900 font-semibold sm:text-2xl">A work in progress... Since a very
+                        young age, I have been an avid birdwatcher and I kept track of the separate species I've
+                        seen in the back of a
+                        birdwatching guide I had. My sister 'borrowed' that a while ago so it's anyone's guess as to
+                        where it is now.... So, I decided to use my coding skills to write an app to keep
+                        track of my life list.
+                        My Bird List is an app that allows birdwatchers to store a list of the birds they've seen along
+                        with an image and location of the sighting. Built with a Laravel RESTful API back-end and using Laravel Sanctum for user auth, the frontend is written in React.js.
+                        Users can register and once logged in can add and edit their bird sightings (location set by clicking on an interactive map), Sightings are shown as a list and also via
+                        markers on a map. The latest code can be seen on GitHub via the links below.</p>
+                    <p class="py-2"><a
+                            class="p-3 bg-cyan-900 rounded-lg p-3 text-orange-100 sm:text-xl hover:bg-lime-300 hover:text-cyan-900 rounded-lg"
+                            href="https://github.com/AndyB0o1/bird-list-app-fe" target="_blank"><i
+                                class="fa-brands fa-github"></i> Front-end</a> | <a
+                            href="https://github.com/AndyB0o1/bird-list-app-api" target="_blank"
+                            class="p-3 bg-cyan-900 rounded-lg text-orange-100 sm:text-xl hover:bg-lime-300 hover:text-cyan-900 rounded-lg p-3"><i
+                                class="fa-brands fa-github"></i> Back-end</a></p>
+                </div>
+            </div>
+            <div class="specificProject mx-auto md:basis-[45%] bg-[#90AEAD] max-w-2xl rounded-lg p-1.5">
+                <h2 class="p-2 font-bold bg-orange-600 text-orange-100 sm:text-3xl">Laravel RESTful API</h2>
+                <div>
+                    <a href="#">
+                        <img src="laravel-book-swap.png" alt="Laravel project code" class="projectImage rounded" />
+                    </a>
+                </div>
+                <div class="projectText">
+                    <p class="pt-1.5 pb-3 text-cyan-900 font-semibold sm:text-2xl">Using the Laravel framework, PHP and
+                        a supplied React front-end to develop
+                        a RESTful API for the back end of a book swap site. I pair programmed a number of elements
+                        including appropriate unit tests, methods
+                        to view details of multiple or single books, filters to select books by different criteria (eg
+                        genre) and the ability to add a review
+                        for a book. We also mob programmed an admin level log-in and dashboard view using Laravel
+                        Breeze.</p>
+                    <p class="py-2"><a
+                            class="p-3 bg-cyan-900 rounded-lg p-3 text-orange-100 sm:text-xl hover:bg-lime-300 hover:text-cyan-900 rounded-lg"
+                            href="https://github.com/iO-Academy/2024-may-sde-library-rats-book-swap-api"
+                            target="_blank">See it on <i class="fa-brands fa-github"></i></a> | <a
+                            href="https://2024-may-bookswap-api-library-rats.dev.io-academy.uk/api/books" target="_blank"
+                            class="p-3 bg-cyan-900 rounded-lg text-orange-100 sm:text-xl hover:bg-lime-300 hover:text-cyan-900 rounded-lg p-3">API</a>
+                        | <a href="https://2024-may-bookswap-fe-library-rats.dev.io-academy.uk/" target="_blank"
+                            class="p-3 bg-cyan-900 rounded-lg text-orange-100 sm:text-xl hover:bg-lime-300 hover:text-cyan-900 rounded-lg p-3">Live</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-orange-600 p-1.5 text-orange-100 rounded-t" id="contact">
+        <h3 class="p-1.5 font-bold sm:text-3xl">Contact me</h3>
+        <div class="flex flex-row gap-7 p-1.5 sm:text-2xl">
+            <a class="p-1.5 sm:text-4xl hover:bg-lime-300 rounded-full" id="icon" href="tel:+447941042227"><i
+                    class="fa-solid fa-square-phone"></i></a>
+            <a class="p-1.5 sm:text-4xl hover:bg-lime-300 rounded-full" id="icon" href="mailto:andybooldev@gmail.com"><i
+                    class="fa-regular fa-envelope"></i></a>
+            <a class="sm:text-4xl p-1.5 hover:bg-lime-300 rounded-full" id="icon"
+                href="https://www.linkedin.com/in/andy-bool-568a2622/" target="_blank"><i
+                    class="fa-brands fa-linkedin"></i></a>
+            <a class="sm:text-4xl p-1.5 hover:bg-lime-300 rounded-full" id="icon" href="https://github.com/AndyB0o1"
+                target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </section>
+    <footer class="p-1.5 bg-cyan-900 text-orange-100 rounded-b sm:text-xl">
+        <p>&copy; 2024</p>
+    </footer>
+    <a href="#top" class="fixed bottom-3 right-3"><i
+            class="text-2xl sm:text-4xl text-lime-300 fa-solid fa-circle-chevron-up"></i></a>
+</body>
+
+</html>
